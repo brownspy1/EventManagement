@@ -5,8 +5,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Add</title>
+    <link rel="stylesheet" href="{% static "css/main.css" %}">
 </head>
 <body>
-    
+    <div class="w-1/2 mx-auto mt-10">
+        {% if messages %}
+            {% for message in messages %}
+                <div class="{% if message.tags == "success" %} bg-green-400 {% else %} bg-red-500 {% endif %} rounded-md p-1">
+                    {{message}}
+                </div> 
+            {% endfor %}
+        {% endif %}
+        
+        <form action="" method='POST' >
+            {% csrf_token %}
+            {{category}}
+            {{event}}
+            {{participant}}
+            <button type="submit" class='px-3 py-2 rounded-md bg-rose-600 text-white'>Submit</button>
+        </form>
+    </div>
 </body>
 </html>

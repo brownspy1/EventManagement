@@ -4,18 +4,6 @@
       "assignedTo": {
         "name": "brownspy1"
       },
-      "category": "model",
-      "creation_time": "2026-07-11T22:58:47.249Z",
-      "id": "3",
-      "prio": 1,
-      "references": [],
-      "title": "CRUD opareson qary impliment",
-      "type": "emergency"
-    },
-    {
-      "assignedTo": {
-        "name": "brownspy1"
-      },
       "category": "Frontend",
       "creation_time": "2026-07-11T22:58:00.113Z",
       "id": "2",
@@ -42,6 +30,33 @@
       "assignedTo": {
         "name": "brownspy1"
       },
+      "category": "model",
+      "creation_time": "2026-07-11T22:58:47.249Z",
+      "id": "3",
+      "prio": 1,
+      "references": [],
+      "title": "CRUD opareson qary impliment",
+      "type": "emergency"
+    },
+    {
+      "assignedTo": {
+        "name": "brownspy1"
+      },
+      "category": "model",
+      "creation_time": "2026-07-12T02:49:13.918Z",
+      "id": "5",
+      "prio": 1,
+      "references": [],
+      "title": "Creating all form",
+      "type": "bug"
+    }
+  ],
+  "testing": [],
+  "done": [
+    {
+      "assignedTo": {
+        "name": "brownspy1"
+      },
       "category": "Model",
       "creation_time": "2026-07-11T22:55:48.177Z",
       "id": "1",
@@ -50,7 +65,5 @@
       "title": "impiment database",
       "type": "emergency"
     }
-  ],
-  "testing": [],
-  "done": []
+  ]
 }
